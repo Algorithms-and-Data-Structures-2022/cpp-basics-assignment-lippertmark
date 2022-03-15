@@ -6,8 +6,8 @@ using namespace std;
 using namespace assignment;
 
 int main() {
-
-  cout << "Write your code here...\n";
-
+  int a[] = {1, 2};
+  int l = 5;
+  print_kth_elements(a, 2, 0);
   return 0;
 }
